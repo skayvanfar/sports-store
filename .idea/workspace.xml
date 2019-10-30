@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3b91a42-8c35-4bba-b7c4-9a05cddb9e80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/ActionCreators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/DataStore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/ShopReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/placeholderData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shop/ProductList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/AsyncMiddleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/RestDataSource.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/Urls.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/ActionCreators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/ActionCreators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/DataStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/DataStore.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,11 +23,16 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../shoping-center" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="C:\Programs\JetBrains\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -50,7 +46,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="npm.webservice">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -64,6 +60,21 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="webservice" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="webservice" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.webservice" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -75,8 +86,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571595369021</updated>
-      <workItem from="1571595370756" duration="3142000" />
+      <workItem from="1571595370756" duration="4722000" />
+      <workItem from="1571985769180" duration="1594000" />
+      <workItem from="1572106419146" duration="6311000" />
+      <workItem from="1572190661660" duration="4881000" />
+      <workItem from="1572265211394" duration="1191000" />
+      <workItem from="1572455317074" duration="1658000" />
     </task>
+    <task id="LOCAL‎۰۰۰۰۱" summary="Creating the Shopping Features">
+      <created>1571602347204</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۱" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۱" />
+      <updated>1571602347204</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,10 +110,18 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Creating the Shopping Features" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating the Shopping Features" />
   </component>
 </project>
