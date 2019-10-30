@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3b91a42-8c35-4bba-b7c4-9a05cddb9e80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/data/AsyncMiddleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/RestDataSource.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Urls.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PaginationButtons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PaginationControls.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/DataGetter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/ActionCreators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/ActionCreators.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/DataStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/DataStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/RestDataSource.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/RestDataSource.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/ShopReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/ShopReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/Types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/Types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/CategoryNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/CategoryNavigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/ShopConnector.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/ShopConnector.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +96,7 @@
       <workItem from="1572106419146" duration="6311000" />
       <workItem from="1572190661660" duration="4881000" />
       <workItem from="1572265211394" duration="1191000" />
-      <workItem from="1572455317074" duration="1658000" />
+      <workItem from="1572455317074" duration="2389000" />
     </task>
     <task id="LOCAL‎۰۰۰۰۱" summary="Creating the Shopping Features">
       <created>1571602347204</created>
@@ -99,7 +104,13 @@
       <option name="presentableId" value="LOCAL‎۰۰۰۰۱" />
       <updated>1571602347204</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL‎۰۰۰۰۲" summary="Consuming the RESTful Web Service">
+      <created>1572463565647</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۲" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۲" />
+      <updated>1572463565647</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +133,7 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Creating the Shopping Features" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating the Shopping Features" />
+    <MESSAGE value="Consuming the RESTful Web Service" />
+    <option name="LAST_COMMIT_MESSAGE" value="Consuming the RESTful Web Service" />
   </component>
 </project>
